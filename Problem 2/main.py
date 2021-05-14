@@ -7,7 +7,7 @@ fib2 = 2
 sum_fib = 0
 
 while fib1 < 4000000:
-    if fib1 % 2 == 0:
+    if not fib1 % 2:
         sum_fib += fib1
     fib1, fib2 = fib2, fib1 + fib2
 
